@@ -11,7 +11,7 @@
 --select avg(quantitysold) as average_quantity_sold, extract(month from saledate) from sales group by saledate order by saledate;
 
  
---productID,upper(productname) from products;
+--select productID,upper(productname),category from products;
 
  
 --select eventname,eventdate from events where eventdate between current_date and current_date + interval '1 month';
